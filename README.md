@@ -15,3 +15,4 @@ In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clo
 
 ### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/ASHISH15012005/Terraform-Script.git)
 
+**Note**: Swiggy Application is forked from other repository
