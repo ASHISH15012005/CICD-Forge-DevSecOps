@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git 'https://github.com/KastroVKiran/DevOps-Project-Swiggy.git'
+                git 'https://github.com/ASHISH15012005/DevOps-Project-Swiggy.git'
             }
         }
         stage('SonarQube Analysis') {
