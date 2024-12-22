@@ -1,4 +1,5 @@
-# **DevOps Real-time Project: Swiggy Application Deployment**
+ 
+# 🚀 **DevOps Real-time Project: Swiggy Application Deployment**
 
 This project shows how to deploy **Swiggy** application using the following DevOps tools.
 
