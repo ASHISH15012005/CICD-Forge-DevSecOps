@@ -1,6 +1,6 @@
 # 🚀 **DevOps Real-time Project: Swiggy Application Deployment**
 
-Welcome to the **Swiggy Application Deployment project**! In this project, I have leveraged modern **DevOps tools** to **automate, secure, and optimize** the deployment pipeline for a feature-rich Swiggy-like application. 🎉  
+Welcome to the **Swiggy Application Deployment project**! In this project, I have leveraged modern **DevSecOps tools** to **automate, secure, and optimize** the deployment pipeline for a feature-rich Swiggy-like application. 🎉  
 
 This project showcases **Infrastructure as Code (IaC), Continuous Integration (CI), Continuous Deployment (CD), Containerization, and Security Best Practices** in a real-world scenario.
 
