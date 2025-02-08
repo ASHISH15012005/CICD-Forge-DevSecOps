@@ -43,15 +43,14 @@ Ensure you have the following installed:
 - [OWASP ZAP](https://www.zaproxy.org/download/)
 - An **AWS Account** with necessary IAM permissions
 
-
-## Architecture
-![image](https://github.com/user-attachments/assets/46f4a984-e1d9-4cfb-9ec7-3430a71cd605)
-
----
-
 ### **2️⃣ Infrastructure Provisioning with Terraform**
 Use Terraform to set up AWS resources:
 ```bash
 terraform init
 terraform plan
 terraform apply
+
+## Architecture
+![image](https://github.com/user-attachments/assets/46f4a984-e1d9-4cfb-9ec7-3430a71cd605)
+
+---
