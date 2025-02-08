@@ -50,7 +50,7 @@ terraform init
 terraform plan
 terraform apply
 
+---
+
 ## Architecture
 ![image](https://github.com/user-attachments/assets/46f4a984-e1d9-4cfb-9ec7-3430a71cd605)
-
----
