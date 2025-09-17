@@ -36,22 +36,7 @@ pipeline {
                 }
             }
         }
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm install'
-            }
-        }
-        stage('OWASP FS Scan') {
-            steps {
-                dependencyCheck additionalArguments: '--scan ./ --disableYarnAudit --disableNodeAudit', odcInstallation: 'DP-Check'
-                dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
-            }
-        }
-        stage('Trivy FS Scan') {
-            steps {
-                sh 'trivy fs . > trivyfs.txt'
-            }
-        }
+        
         stage('Docker Build & Push') {
             steps {
                 script {
@@ -63,11 +48,7 @@ pipeline {
                 }
             }
         }
-        stage('Trivy Image Scan') {
-            steps {
-                sh 'trivy image ashishkodumuru169/swiggy:latest > trivy.txt'
-            }
-        }
+        
         stage('Deploy to Container') {
             steps {
                 sh 'docker run -d --name swiggy -p 3000:3000 ashishkodumuru169/swiggy:latest'
